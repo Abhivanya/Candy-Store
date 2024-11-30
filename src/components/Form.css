@@ -1,0 +1,49 @@
+form {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: rgb(11, 216, 231);
+    border: 1px solid white;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    color: black;
+}
+
+form div {
+    height: 40px;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+label {
+    font-size: 22px;
+    font-weight: 700;
+    background-color: inherit;
+    color: black;
+    margin-right: 10px;
+}
+
+input {
+    background-color: white;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: blue;
+    background-color: white;
+}

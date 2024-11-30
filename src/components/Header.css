@@ -1,0 +1,13 @@
+header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(90deg, #5860f0, #d724b0, #2aec4d, #de545d);
+
+    display: flex;
+}
+
+h1,
+span {
+    background: transparent;
+}

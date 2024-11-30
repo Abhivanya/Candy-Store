@@ -1,0 +1,25 @@
+.cart-container {
+    background-color: rgb(99, 86, 219);
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: white;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.cart-container span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cart-container .cart-count {
+    background-color: rgb(234, 21, 21);
+    padding: 1px 7px;
+    border-radius: 50%;
+}

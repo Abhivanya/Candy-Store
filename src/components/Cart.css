@@ -1,0 +1,44 @@
+.item {
+    padding: 10px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.amount {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 900;
+    /* border-top: 1px solid white; */
+    padding-top: 10px;
+}
+
+.btns {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.btns button {
+    width: 80px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btns .close {
+    color: brown;
+    background-color: white;
+}

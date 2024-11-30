@@ -1,0 +1,53 @@
+.item {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    border-bottom: 1px solid rgb(196, 191, 191);
+    padding-bottom: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.price {
+    font-size: 18px;
+    color: rgb(122, 26, 26);
+    font-weight: 700;
+}
+
+
+
+.btn {
+    align-items: center;
+    width: 90px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.btn:hover {
+    background-color: maroon;
+    color: black;
+}
